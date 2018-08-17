@@ -47,25 +47,26 @@ if sign==1:
     y=float(input("Num2 = "))
     z=x+y
     print("Answer: "+str(z))
+
 print("1)+\n2)-\n3)*\n4)/")
 sign=int(input("NumberOfSignOfOperation = "))
-elif sign==2:
+if sign==2:
     print("x-y=z")
     x=float(input("Num1 = "))
     y=float(input("Num2 = "))
     z=x-y
     print("Answer: "+str(z))
-print("1)+\n2)-\n3)*\n4)/")
-sign=int(input("NumberOfSignOfOperation = "))
-elif sign==3:
+    print("1)+\n2)-\n3)*\n4)/")
+    sign=int(input("NumberOfSignOfOperation = "))
+if sign==3:
     print("x*y=z")
     x=float(input("Num1 = "))
     y=float(input("Num2 = "))
     z=x*y
     print("Answer: "+str(z))
-print("1)+\n2)-\n3)*\n4)/")
-sign=int(input("NumberOfSignOfOperation = "))
-elif sign==4:
+    print("1)+\n2)-\n3)*\n4)/")
+    sign=int(input("NumberOfSignOfOperation = "))
+if sign==4:
     print("x/y=z")
     x=float(input("Num1 = "))
     y=float(input("Num2 = "))
